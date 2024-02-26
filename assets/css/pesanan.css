@@ -1,0 +1,189 @@
+body{
+    margin: 0; padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(255, 0, 0);
+}
+
+header{
+    background-color: #062E0F; 
+    overflow: hidden; 
+    padding: 15px 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    color: #F4F9E1;
+}
+.km{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial Narrow;
+}
+.head{
+    font-size: 32px;
+    font-weight: bold;
+}
+
+table{
+    border-color: black;
+    background-color: white;
+}
+section{
+    background-color: #C1D4C5;
+    overflow: hidden; padding: 15px 20px ; 
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;       
+    /*background-image: url("/UAS 3/img/cabai.jpg");*/
+}
+
+footer{
+    padding: 5px 30px;
+    background-color: #2B3409; 
+    color: #F0F7D4;
+}
+
+nav a{
+    text-decoration: none;  
+    font-family: verdana;
+    background: inherit;
+    color: #093426;
+    font-size: 18px;
+    padding: 20px;
+}
+.warna{
+    color:rgb(92, 18, 18);
+    font-weight: 700;
+    font-size: 30px;
+}
+.tL{ 
+    color: black ; 
+    font-size: 20px;
+    margin: auto;
+    padding-left: 10px;
+    font-family: monospace;
+}
+.menu{
+    padding-right: 155px;
+}
+.bL{
+    float: right;
+    color:#F0F7D4;
+}
+.fR{
+    float: right; 
+    padding: 10px;
+}
+.bR{
+    margin: 25px; 
+    margin-right: 50px;
+}
+.trash{
+    padding-left: 20px;
+}
+.box{
+    height: 220px;
+    width: 500px;
+    margin: 15px;
+    border-radius: 30px;
+    flex-basis: 20%;
+    background-color: #ffffff;
+    border-color:  black;
+    display: flex;
+}
+.img{
+    padding: 10px 10px 10px 13px;
+    border-radius: 30px;
+}
+
+.bykr{
+    box-shadow: 25px 15px 40px rgba(30, 14, 1, 0.7);
+}     
+.kotak{
+    background-color: white;
+    width:420px;
+    height: 130px;
+    border: 3px solid #000000;
+    margin-left: 40px;
+    border-radius: 15px;
+}    
+p{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.Label2 {
+    width: 92px;
+    position: relative;
+    float: left;
+    padding-right: 8px;
+    padding-left: 50px;
+}
+.form{
+    padding-top: 55px;
+    color: black;
+    font-size: 18px;
+    justify-content: center;
+}
+.JA{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.bold{
+    font-weight:bolder;
+}
+.ddButton{
+    font-size: 20px;
+}
+.Pesanan{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 140px;
+}
+.Button{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    padding-top: 20px;
+}
+.Button button{
+    padding: 10px;
+}
+.ms{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.WK{
+    margin-left: 70px;
+    border-radius: 10px;
+    background-color: #11e03e;
+    padding: 40px;
+}
+.WB{
+    border-radius: 10px;
+    background-color: #e01111;
+    padding: 40px;
+}
+input[type=image]{
+    height: 30px;
+    width: 30px;
+}
+.input1{
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    display: block;
+}
+.input2{
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom: 125px;
+    display: block;
+}

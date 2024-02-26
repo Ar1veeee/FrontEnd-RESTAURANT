@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/assets/css/kasir.css" />
+
+  <title>Chashier</title>
+</head>
+<html>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <div>
+      <h1>KASIR</h1>
+    </div>
+  </header>
+
+  <!-- Status Pemesanan -->
+  <div class="card my-4 shadow" id="stat1-pesan">
+    <span class="stats text-center">Order Status</span>
+    <div class="track">
+      <div class="step active-icon"> <span class="icon"> <img src="/assets/img/jam.png" alt=""></span></div>
+
+      <div class="step active-icon"> <span class="icon"> <img src="/assets/img/cook.png" alt=""></span></div>
+      <div class="step active-icon"> <span class="icon"> <img src="/assets/img/serve.png" alt=""> </span> </div>
+      <div class="step active-icon"> <span class="icon"> <img src="/assets/img/money.png" alt=""> </span> </div>
+    </div>
+  </div>
+  <br>
+  <!-- Akhir Pemesanan -->
+
+  <div class="card shadow" id="stat-pesan">
+    <span class="stats text-center">Tagihan Pembayaran</span>
+
+    <div style="width: 100%; margin-left:20px; margin-top:20px;height:25%;">
+      <div style="font-family: Arial, Helvetica, sans-serif;display: flex; flex-direction: row;">
+        <h2 class="putih input1" style="width: 15%;">No Meja </h2>
+        <h2 class="putih input1" style="width: 50%;">: 3</h2><br>
+      </div>
+      <div style="font-family: Arial, Helvetica, sans-serif;display: flex; flex-direction: row;">
+        <h2 class="putih input1" style="width: 15%;">ID-Transaksi</h2>
+        <h2 class="putih input1" style="width:50%;">: TR-002</h2><br>
+      </div>
+      <div style="font-family: Arial, Helvetica, sans-serif;display: flex; flex-direction: row;">
+        <h2 class="putih input1" style="width: 15%;">Tanggal</h2>
+        <h2 class="putih input1" style="width:50%;">: 19/10/2023</h2><br>
+      </div>
+      <div style="font-family: Arial, Helvetica, sans-serif;display: flex; flex-direction: row;">
+        <h2 class="putih input1" style="width: 15%;">Waktu</h2>
+        <h2 class="putih input1" style="width:50%;">: 16.17</h2><br>
+      </div>
+      <div style="font-family: Arial, Helvetica, sans-serif;display: flex; flex-direction: row;">
+        <h2 class="putih input1" style="width: 15%;">Nama</h2>
+        <h2 class="putih input1" style="width:50%;">: Alief Arifin</h2><br>
+      </div>
+    </div>
+    <div class="container my-1">
+      <table class="table table-striped border" style="width:100%; margin-right: 0px; margin-left: 0px; ">
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Foods & Drinks</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Sub Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1.</td>
+            <td>Ayam Penyet + Nasi</td>
+            <td>3</td>
+            <td>Rp 12.500</td>
+            <td>Rp 37.500</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Lele Penyet + Nasi</td>
+            <td>2</td>
+            <td>Rp 10.000</td>
+            <td>Rp 20.000</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Es Teh</td>
+            <td>5</td>
+            <td>Rp 3.500</td>
+            <td>Rp 17.500</td>
+          </tr>
+          <thead>
+            <tr>
+              <th>Sub Total</th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th>Rp 75.000</th>
+            </tr>
+            <tr>
+              <th>PPN 0%</th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th>Rp 0</th>
+            </tr>
+            <tr>
+              <th>Total</th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th>Rp 75.000</th>
+            </tr>
+            <tr>
+              <th>Tunai</th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th>Rp 100.000</th>
+            </tr>
+            <tr>
+              <th>Kembalian</th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th>Rp 25.000</th>
+            </tr>
+            <tr>
+              <th>Metode Pembayaran</th>
+              <th></th>
+              <th></th>
+              <th></th>
+              <th>QRIS</th>
+            </tr>
+          </thead>
+      </table>
+
+    </div>
+  </div>
+  <div class="tengah" style="margin-top:45px;">  
+    <a href="/nota.html">            
+    <button style="width: 150px;height:45px" class=" bykr2 size" onclick="selesai()"> 
+            <img  src="/assets/img/check.png" width="28px" height="28px"><p class="bold" style="padding-left:10px;font-size:16px">Selesai</p>
+    </button>
+  </a>
+</div>
+  <link rel="stylesheet" href="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" />
+</body>
+
+</html>

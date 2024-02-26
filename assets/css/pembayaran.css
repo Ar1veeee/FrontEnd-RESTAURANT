@@ -1,0 +1,211 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #062E0F;
+    overflow: hidden;
+    padding: 15px 20px;
+    color: #F4F9E1;
+    text-align: center
+}
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+.Label {
+    font-family: Monomaniac One;
+    font-size: 20px;
+    font-style: normal;
+    line-height: normal;
+}
+
+.ms {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.circle {
+    border-radius: 50%;
+    background-color: #00AD3B;
+    color: #333;
+    display: inline-block;
+    line-height: 1;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    margin: 5px ;
+}
+.head {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.ddButton {
+    font-size: 20px;
+}
+.size {
+    width: 150px;
+    border-radius: 50px;
+    background-color: red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 45px;
+    color: white;
+}
+
+.bykr2 {
+    box-shadow: 15px 15px 25px rgba(30, 14, 1, 0.7);
+    margin-bottom: 35.px;
+}
+
+h2 {
+    margin: 10px;
+}
+
+.input1 {
+    width: 300px;
+    margin-left: 10px;
+    display: block;
+}
+
+.form {
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 3px solid #000000;
+
+}
+
+.Label {
+    width: 100px;
+    position: relative;
+    float: left;
+}
+
+.size {
+    font-size: large;
+}
+
+.sizeplus {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tengah {
+    text-align: center;
+}
+
+.kanan {
+    padding-left: 450px;
+    padding-right: 25px;
+}
+
+.box-status {
+    border-radius: 30px;
+    border: 3px solid #000;
+    background: #C1D4C5;
+    width: 700px;
+    height: 180px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    padding-right: 10px;
+}
+.box-dalam{
+    border-radius: 30px;
+    height: 28px;
+    background-color: #00AD3B;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding-top: 5px;
+
+}
+.box {
+    height: 800px;
+    width: 600px;
+    margin: 15px;
+    border-radius: 30px;
+    background-color: #206930;
+    border-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+p{
+    margin: 0px;
+}
+.status{
+    display: flex;
+    justify-content: space-between;
+}
+.putih {
+    color: white;
+}
+
+.tagihan {
+
+    color: white;
+    text-align: center;
+}
+
+.lucida {
+    font-family: verdana;
+}
+
+.fantasy {
+    font-family: fantasy;
+}
+
+table {
+    border-color: black;
+    background-color: white;
+}
+
+section {
+    background-color: #C1D4C5;
+    overflow: hidden;
+    padding: 15px 20px;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    /*background-image: url("/UAS 3/img/cabai.jpg");*/
+}
+
+footer {
+    padding: 5px 30px;
+    background-color: #2B3409;
+    color: #F0F7D4;
+}

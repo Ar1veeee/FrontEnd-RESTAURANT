@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project UAS - PENYETAN SHOLEH</title>
+    <link rel="stylesheet" href="/assets//css/service.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>SERVICE</h1>
+        </div>
+    </header>
+    <section>
+        <div>
+            <div>
+                <div style="display: flex; justify-content:center;width:100%">
+                    <div class="box-status" style="width: 70%; height: 250px;text-align:center;display:flex;justify-content:center;margin-bottom:10px;">
+                        <div class="box-status" style="width: 100%; height:190px; display:flex; justify-content:center;border-top:none;">
+                            <div class="box-dalam"
+                                style="font-weight:bold;width: 60%;height:30px;padding-top:10px;font-size:large; margin-left: 40px;">
+                                STATUS PEMESANAN
+                            </div>
+                            <div class="status" style="margin-right: 50px;">
+                                <div style=" padding-left:100px; text-align:center">
+                                    <button class="circle" style="display: flex; justify-content:center;"><img
+                                            style="height: 70px; padding-top:5px" src="/assets/img/jam.png"></button>
+                                    <p>Pesanan Dalam<br>Antrian</p>
+                                </div>
+                                <div style=" padding-left:100px; text-align:center">
+                                    <button class="circle" style="display: flex; justify-content:center;"><img
+                                            style="height: 70px; padding-top:5px" src="/assets/img/cook.png"></button>
+                                    <p>Pesanan<br>Diproses</p>
+                                </div>
+                                <div style=" padding-left:100px; text-align:center">
+                                    <button class="circle" style="display: flex; justify-content:center;"><img
+                                            style="height: 70px; padding-top:5px" src="/assets/img/serve.png"></button>
+                                    <p>Pesanan <br> Siap Antar</p>
+                                </div>
+                                <div style=" padding-left:100px; text-align:center">
+                                    <button id="bayar" class="circle2" style="display: flex; justify-content:center;"><a
+                                            href="#"><img style="height: 70px; padding-top:5px"
+                                                src="/assets/img/money.png"></button></a>
+                                    <p>Proses<br>Pembayaran</p>
+                                </div>
+                            </div>  
+                        </div>
+                        <label for="NoMeja" class="Label bold">No Meja :</label>
+                            <select class="input1 bold" id="country" name="country">
+                                <option value="3">3</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select> <br>
+                    </div>
+                </div>
+            </div>
+            <div style="display: flex; justify-content:center">
+                <div class="box-dalam"
+                    style="font-weight:bold;width: 30%;height: 32px;padding-top:10px;font-size:large; margin-top:35px;margin-bottom:70px">
+                    PESANAN
+                </div>
+            </div>
+            <div style="display: flex;justify-content:center;">
+                <div style="width:100%">
+                    <table class="table-fill">
+                        <thead>
+                            <tr>
+                                <th class="text-center">No</th>
+                                <th class="text-center">Barang</th>
+                                <th class="text-center">Jumlah</th>
+                                <th class="text-center">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody class="table-hover">
+                            <tr>
+                                <td class="text-center">1</td>
+                                <td class="text-center">Ayam Penyet + Nasi</td>
+                                <td class="text-center">3 Pcs</td>
+                                <td class="text-center"><button id="change" onclick="myfunction(1)" style="background: #F00;"><a id="ganti1" class="bold">Diproses</a></button></td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">2</td>
+                                <td class="text-center">Lele Penyet + Nasi</td>
+                                <td class="text-center">2 Pcs</td>
+                                <td class="text-center"><button id="change2" onclick="myfunction2(1)" style="background: #FAFF00"><a id="ganti2" class="bold">Siap Diantar</a></button></td>
+                            </tr>
+                            <tr>
+                                <td class="text-center">3</td>
+                                <td class="text-center">Es Teh</td>
+                                <td class="text-center">5 Pcs</td>
+                                <td class="text-center"><button  id="change3" onclick="myfunction3(1)"><a id="ganti3" class="bold">Sudah Diantar</a></button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="tengah" style="margin-top:165px;">              
+                    <button style="width: 150px;height:45px" class=" bykr2 size" onclick="selesai()"> 
+                            <img  src="/assets/img/check.png" width="28px" height="28px"><p class="bold" style="padding-top: 7px;padding-left:5px;font-size:16px">Selesai</p>
+                    </button>
+            </div>
+<p class="tengah" style="margin-top: 25px;color: #7B6969;margin-bottom:13px">*Tekan jika Pesanan sudah diantar semua...!</p>
+
+    </section>
+    <script src="/assets/js/service.js"></script>
+    <script src="/assets/js/info.js"></script>
+</body>
+
+</html>

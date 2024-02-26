@@ -1,0 +1,159 @@
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Table Style</title>
+	<meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; width=device-width;">
+	<link rel="stylesheet" href="/assets/css/manager.css">
+</head>
+
+<body>
+	<header>
+		<div>
+			<h1 style="color: WHITE;">MANAGER</h1>
+		</div>
+	</header>
+	<div style="display: flex;justify-content:center">
+		<h1 style="color: #083A31;">STOK BAHAN - PENYETAN SHOLEH</h1>
+	</div>
+	<table class="table-fill">
+		<thead>
+			<tr>
+				<th class="text-center">No</th>
+				<th class="text-center">Barang</th>
+				<th class="text-center">Jumlah</th>
+				<th class="text-center">Status</th>
+			</tr>
+		</thead>
+		<tbody class="table-hover">
+			<tr>
+				<td class="text-center">1</td>
+				<td style="width: 150px;" class="text-center">Ayam</td>
+				<td style="width: 100px;" class="text-center">31 Pcs</td>
+				<td style="width: 200px" class="text-center">
+					<button onclick="hijau()" id="tersedia"><a class="bold">Tersedia</a></button>
+					<button onclick="merah()" id="habis" style="margin-left: 25px; background:#BBBBBB"><a
+							class="bold">Segera Habis</a></button>
+				</td>
+			</tr>
+			<tr>
+				<td class="text-center">2</td>
+				<td class="text-center">Bebek</td>
+				<td class="text-center">4 Pcs</td>
+				<td class="text-center">
+					<button onclick="hijau2()" id="tersedia2"><a class="bold">Tersedia</a></button>
+					<button onclick="merah2()" id="habis2" style="margin-left: 25px; background:#BBBBBB"><a
+							class="bold">Segera Habis</a></button>
+				</td>
+			</tr>
+			<tr>
+				<td class="text-center">3</td>
+				<td class="text-center">Lele</td>
+				<td class="text-center">21 Pcs</td>
+				<td class="text-center">
+					<button onclick="hijau3()" id="tersedia3"><a class="bold">Tersedia</a></button>
+					<button onclick="merah3()" id="habis3" style="margin-left: 25px; background:#BBBBBB"><a
+							class="bold">Segera Habis</a></button>
+				</td>
+			</tr>
+			<tr>
+				<td class="text-center">4</td>
+				<td class="text-center">Tempe</td>
+				<td class="text-center">14 Pcs</td>
+				<td class="text-center">
+					<button onclick="hijau4()" id="tersedia4"><a class="bold">Tersedia</a></button>
+					<button onclick="merah4()" id="habis4" style="margin-left: 25px; background:#BBBBBB"><a
+							class="bold">Segera Habis</a></button>
+				</td>
+			</tr>
+			<tr>
+				<td class="text-center">5</td>
+				<td class="text-center">Tahu</td>
+				<td class="text-center">3 Pcs</td>
+				<td class="text-center">
+					<button onclick="hijau5()" id="tersedia5"><a class="bold">Tersedia</a></button>
+					<button onclick="merah5()" id="habis5" style="margin-left: 25px; background:#BBBBBB"><a
+							class="bold">Segera Habis</a></button>
+				</td>
+			</tr>
+			<tr>
+				<td class="text-center">6</td>
+				<td class="text-center">Teh</td>
+				<td class="text-center">40 Pcs</td>
+				<td class="text-center">
+					<button onclick="hijau6()" id="tersedia6"><a class="bold">Tersedia</a></button>
+					<button onclick="merah6()" id="habis6" style="margin-left: 25px; background:#BBBBBB"><a
+							class="bold">Segera Habis</a></button>
+				</td>
+			</tr>
+			<tr>
+				<td class="text-center">7</td>
+				<td class="text-center">Es Batu</td>
+				<td class="text-center">120 Pcs</td>
+				<td class="text-center">
+					<button onclick="hijau7()" id="tersedia7"><a class="bold">Tersedia</a></button>
+					<button onclick="merah7()" id="habis7" style="margin-left: 25px; background:#BBBBBB"><a
+							class="bold">Segera Habis</a></button>
+				</td>
+			</tr>
+			<tr>
+				<td class="text-center">8</td>
+				<td class="text-center">Jeruk</td>
+				<td class="text-center">21 Pcs</td>
+				<td class="text-center">
+					<button onclick="hijau8()" id="tersedia8"><a class="bold">Tersedia</a></button>
+					<button onclick="merah8()" id="habis8" style="margin-left: 25px; background:#BBBBBB"><a
+							class="bold">Segera Habis</a></button>
+				</td>
+			</tr>
+			<tr>
+				<td class="text-center">9</td>
+				<td class="text-center">Milo Sachet</td>
+				<td class="text-center">12 Pcs</td>
+				<td class="text-center">
+					<button onclick="hijau9()" id="tersedia9"><a class="bold">Tersedia</a></button>
+					<button onclick="merah9()" id="habis9" style="margin-left: 25px; background:#BBBBBB"><a
+							class="bold">Segera Habis</a></button>
+				</td>
+			</tr>
+			<tr>
+				<td class="text-center">10</td>
+				<td class="text-center">White Coffe</td>
+				<td class="text-center">2 Pcs</td>
+				<td class="text-center">
+					<button onclick="hijau10()" id="tersedia10"><a class="bold">Tersedia</a></button>
+					<button onclick="merah10()" id="habis10" style="margin-left: 25px; background:#BBBBBB"><a
+							class="bold">Segera Habis</a></button>
+				</td>
+			</tr>
+			<tr>
+				<td class="text-center">11</td>
+				<td class="text-center">Sambal</td>
+				<td class="text-center">80 Pcs</td>
+				<td class="text-center">
+					<button onclick="hijau11()" id="tersedia11"><a class="bold">Tersedia</a></button>
+					<button onclick="merah11()" id="habis11" style="margin-left: 25px; background:#BBBBBB"><a
+							class="bold">Segera Habis</a></button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<p style="color:#7B6969; font-size:13px; text-align:center">*Jika jumlah barang berjumlah dibawah 15 silahkan ubah status menjadi “Segera Habis”. </p>
+	<div class="ms">
+		<div style="display: flex; justify-content:center">
+			<a href="penjualan.html">
+				<button class=" bykr2 size">
+					<img src="/assets/img/bulan.png" width="25px" height="25px" style="padding-top: 5px;padding-left:5px">
+					<p class="bold rapi">PENJUALAN</p>
+				</button>
+			</a>
+			<a style="margin-left: 50px;" href="laporan.html">
+				<button class=" bykr2 size">
+					<img src="/assets/img/report.png" width="25px" height="25px" style="padding-top: 5px;padding-left:5px">
+					<p class="bold rapi" style="padding-left: 14px;">LAPORAN</p>
+				</button>
+			</a>
+		</div>
+	</div>
+	<script src="/assets/js/manager.js"></script>
+</body>

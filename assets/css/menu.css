@@ -1,0 +1,283 @@
+body{
+    margin: 0; padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(255, 0, 0);
+}
+
+header{
+    background-color: #062E0F; 
+    overflow: hidden; 
+    padding: 15px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    
+    color: #F4F9E1;
+}
+.stok{
+    font-size: small;
+    color: rgb(151, 144, 144);
+
+}
+.article{
+    background-color: #F0F7D4 ;
+    font-weight: 550; 
+    overflow: hidden;
+    padding: 5px 2px;
+    float: right;border-radius: 10px;
+}
+.jT{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+table{
+    border-color: black;
+    background-color: white;
+}
+section{
+    background-color: #C1D4C5; 
+    overflow: hidden; padding: 15px 20px ; 
+    padding-bottom: 120px; 
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;        
+    /*background-image: url("/UAS 3/img/cabai.jpg");*/
+}
+
+footer{
+    padding: 5px 30px;
+    background-color: #2B3409; 
+    color: #F0F7D4;
+}
+
+nav a{
+    text-decoration: none;  
+    font-family: verdana;
+    background: inherit;
+    color: #093426;
+    font-size: 18px;
+    padding: 20px;
+}
+.warna{
+    color:rgb(92, 18, 18);
+    font-weight: 700;
+    font-size: 30px;
+}
+.input1{
+    width: 200px;
+    margin-left: 10px;
+    display: block;
+}
+.Label1 {
+    width: 100px;
+    position: relative;
+    float: left;
+}
+.Label2 {
+    width: 92px;
+    position: relative;
+    float: left;
+    padding-right: 8px;
+}
+.fL{
+    float: left;
+}
+.tL{ 
+    color: black ; 
+    font-size: 18px;
+    margin: auto;
+    padding-left: 10px;
+    font-family: monospace;
+}
+.tengah{
+    margin-bottom: 50px;
+}
+.cL{ 
+    color: black ; 
+    font-size: 20px;
+    font-family: monospace;
+}
+.rp{
+    margin-bottom: 25px;
+}
+.tJ{
+    color: black;
+}
+.jL{ 
+    color: #ffffff; 
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+}
+.menu{
+    padding-right: 155px;
+}
+.bL{
+    float: right;
+    color:#F0F7D4;
+}
+.fR{
+    float: right; 
+    padding: 10px;
+}
+.bR{
+    margin: 25px; 
+    margin-right: 50px;
+}
+
+.box1{
+    height: 300px;
+    margin: 15px;
+    border-radius: 30px;
+    flex-basis: 14%;
+    background-color: #ffffff;
+    border-color:  black;
+}
+.img{
+    padding: 10px 10px 10px 13px;
+    border-radius: 30px;
+}
+
+.form{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 60px;
+    color: black;
+    font-size: 18px;
+}
+.meja{
+    padding-top: 50px;
+    padding-left: 680px;
+}
+.bykr{
+    box-shadow: 25px 15px 40px rgba(30, 14, 1, 0.7);
+}     
+.bykr2{
+    box-shadow: 15px 15px 25px rgba(30, 14, 1, 0.7);
+}  
+.container {
+    width: 30%;
+    margin: auto;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}   
+.container2{
+    background-color:rgb(145, 16, 16);
+    width: 40%;
+    margin: auto;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-left: 30px;
+    justify-items: center;
+    margin-top: 30px;
+}   
+p{
+    padding-left: 15px;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 32px;
+}
+.Label {
+    width: 140px;
+    padding: 1px;
+    padding-left: 15px;
+    position: relative;
+    float: left;
+}
+.form{
+    color: black;
+    font-size: 18px;
+}
+.isi{
+    width: 170px;
+}
+.kanan{
+    margin-right: 100px;
+}
+.FS{
+    font-size: 23px;
+}
+.TT{
+    text-align: center;
+    color: #000000  ;
+}
+.JA{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.TL{
+    text-align: left;
+}
+.TR{
+    text-align: right;
+    padding-right: 15px;
+}
+.wMerah{
+    color: red;
+}
+.PL{
+    padding-left: 10px;
+}
+.ddButton{
+    font-size: 20px;
+}
+.Makanan{
+    display: flex;
+    margin-bottom: 15px;
+    justify-content: space-evenly;
+}
+.Minuman{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+.Pesanan{
+    display: flex;
+    flex-direction: column;
+}
+.Button1{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+}
+.Button1 button{
+    padding: 10px;
+}
+.ms{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.WB{
+    border-color: aqua;
+    border-radius: 10px;
+    background-color: #88e79d;
+    padding: 40px;
+}
+.size{
+    border-radius: 10px;
+    border-color: #71881B;
+    background-color: #D3E788;
+    padding: 40px;
+}
+input[type=image]{
+    height: 15px;
+    width: 15px;
+}
+.table{
+    border-collapse: collapse;
+}
+.table th{
+    border: 1px solid #000000;
+    background-color: #ccc;
+
+}
